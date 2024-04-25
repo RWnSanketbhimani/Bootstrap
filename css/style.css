@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.child{
+    height: 100px;
+    width: 100px;
+}
+
+.imgHeight{
+    height: 650px;
+    box-sizing: border-box;
+}
+
+.height{
+ height: 100vh;
+}
+.banner{
+    background-image: url(../img/mountain.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: hue;
+    background-color: rgba(0, 0, 0, 0.591);
+}
+
+.title{
+    border-color: goldenrod;
+}
+
+.card{
+    height: 70px;
+    width: 300px;
+}
+
+.notication{
+    top: -18px;
+    left: 5px;
+}
+
+.click{
+    background-color: lightslategray;
+    color: white;
+}
+.click:hover{
+    color: red;
+    border: 1px solid;
+}
+
+.cardImg{
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
